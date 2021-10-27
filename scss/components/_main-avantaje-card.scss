@@ -1,0 +1,21 @@
+.main-avantaje-card{
+    height: 50px;
+    border: 1px solid $grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    margin: 0 1rem;
+    margin-bottom: 0.5rem;
+
+    i{
+        color: $orange;
+        font-size: 2rem;
+        margin-right: 0.7rem;
+        width: 45px;
+    }
+
+    p{
+        width: 120px;
+    }
+}

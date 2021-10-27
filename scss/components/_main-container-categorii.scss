@@ -1,0 +1,6 @@
+.main-container-categorii{
+    display: grid;
+    h2{
+        @extend %title;
+    }
+}

@@ -34,3 +34,10 @@
     justify-content: $just;
     align-items: $all;
 }
+
+%title{ 
+    color: $violet;
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+    text-align: center;
+}

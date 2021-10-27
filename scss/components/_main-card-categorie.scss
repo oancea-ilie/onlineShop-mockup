@@ -1,0 +1,33 @@
+.main-card-categorie{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 1rem;
+    background-color: white;
+    margin:0  0.25rem;
+    margin-top: 0.5rem;
+    border-radius: 5px;
+    box-shadow: -1px 4px 14px -2px #dadada;
+    position: relative;
+
+    img{
+        width: 100%;
+    }
+
+    i{
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        cursor: pointer;
+    }
+    p{
+        padding: 0.6rem 0;
+        text-align: center;
+    }
+
+    h3{
+        color: rgb(235, 3, 3);
+
+    }
+}
