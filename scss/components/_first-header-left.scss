@@ -4,16 +4,19 @@
     .toggle-btn{
         transition: .3s all;
         font-size: 1.4rem;
-        color: $black;
+        color: $violet;
     }
     .toggle-btn:hover{
-        color: $violet;
+        color: $orange;
     }
 
     .brand{
         margin-left: 0.5rem;
         text-decoration: none;
         color: $violet;
-        font-size: 1.5rem;
+        font-size: 1.7rem;
+    }
+    .brand:hover{
+        color: $orange;
     }
 }

@@ -10,6 +10,8 @@
     border-radius: 5px;
     box-shadow: -1px 4px 14px -2px #dadada;
     position: relative;
+    transition: .3s all;
+    cursor: pointer;
 
     img{
         width: 100%;
@@ -30,4 +32,8 @@
         color: rgb(235, 3, 3);
 
     }
+}
+
+.main-card-categorie:hover{
+    box-shadow: -1px 5px 14px -2px #909090;
 }

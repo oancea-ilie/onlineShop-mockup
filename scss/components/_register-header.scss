@@ -1,0 +1,14 @@
+.register-header{
+    background-color: $grey;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    h1{
+        font-weight: 400;
+        margin: 0;
+        color: $violet;
+    }
+    
+}

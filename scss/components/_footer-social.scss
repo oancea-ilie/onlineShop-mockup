@@ -1,0 +1,18 @@
+.footer-social{
+    margin-top: 0.5rem;
+
+    a{
+        padding-right: 0.5rem;
+        i{
+            font-size: 1.2rem;
+            color: $violet;
+            transition: .3s all;
+        }
+        i:hover{
+            color: $orange;
+        }
+    }
+    a:last-of-type{
+        padding-right: none;
+    }
+}

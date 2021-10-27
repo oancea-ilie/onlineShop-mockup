@@ -3,6 +3,7 @@
     justify-content: center;
     align-items: center;
     padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
     input{
         width: 8rem;
         border: 1px solid $violet;
@@ -13,10 +14,11 @@
         border: 2px solid $violet;
     }
     a{
+        color: $violet;
         transition: .3s all;
         margin-left: 0.5rem;
     }
     a:hover{
-        color: $violet;
+        color: $orange;
     }
 }

@@ -1,0 +1,51 @@
+
+
+.register-container{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    p{
+        margin-top: 0.3rem;
+        font-size: 1.2rem;
+        color: $violet;
+    }
+    input{
+        margin-top: 0.3rem;
+        text-align: center;
+        font-size: 1.2rem;
+        color: $orange;
+        padding: 0.4rem 0;
+        border-radius: 30px;
+        border: 1px solid $orange;
+    }
+    input:focus{
+        outline: none;
+        border: 2px solid $orange;
+    }
+
+    a{
+        margin: auto;
+        width: 65%;
+        text-align: center;
+        text-decoration: none;
+        color: whitesmoke;
+        padding: 0.6rem 0;
+        border-radius: 30px;
+        border: 1px solid $orange;
+        margin-top: 1rem;
+        background-color: $orange;
+        transition: .3s all;
+    }
+    a:hover{
+        background-color: $violet;
+    }
+    a:last-of-type{
+        background-color: white;
+        color: $orange;
+    }
+    a:last-of-type:hover{
+        color: $black;
+    }
+}
