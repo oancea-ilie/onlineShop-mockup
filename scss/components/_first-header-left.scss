@@ -1,0 +1,19 @@
+.first-header-left{
+    display: flex;
+    align-items: center;
+    .toggle-btn{
+        transition: .3s all;
+        font-size: 1.4rem;
+        color: $black;
+    }
+    .toggle-btn:hover{
+        color: $violet;
+    }
+
+    .brand{
+        margin-left: 0.5rem;
+        text-decoration: none;
+        color: $violet;
+        font-size: 1.5rem;
+    }
+}

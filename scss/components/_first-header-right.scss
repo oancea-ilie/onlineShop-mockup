@@ -1,0 +1,19 @@
+.first-header-right{
+    display: flex;
+    align-items: center;
+    a{
+        transition: .3s all;
+        font-size: 1.3rem;
+        padding-right: 0.3rem;
+        color: $black;
+    }
+    a:hover{
+        color:$violet;
+    }
+    a:last-of-type{
+        padding-right: 0;
+    }
+    .notificare{
+
+    }
+}

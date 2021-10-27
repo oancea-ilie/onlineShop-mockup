@@ -11,9 +11,21 @@
 
 // layout
 
-// @import 
-// 'layout/header';
+@import 
+'layout/header',
+'layout/main',
+'layout/footer';
 
 
-// @import
-// 'components/box';
+@import
+'components/first-header-left',
+'components/first-header-right',
+'components/first-header',
+'components/footer-social',
+'components/last-header',
+'components/main-avantaje-card',
+'components/main-avantaje',
+'components/main-card-categorie',
+'components/main-categorie',
+'components/main-container-categorii',
+'components/main-img-container';

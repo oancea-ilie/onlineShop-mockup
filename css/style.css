@@ -344,4 +344,73 @@ template {
   font-family: "Roboto Condensed", sans-serif;
 }
 
+header {
+  padding: 0 0.5rem;
+  background-color: #d7cec7;
+}
+
+.first-header-left {
+  display: flex;
+  align-items: center;
+}
+.first-header-left .toggle-btn {
+  transition: 0.3s all;
+  font-size: 1.4rem;
+  color: #565656;
+}
+.first-header-left .toggle-btn:hover {
+  color: #76323F;
+}
+.first-header-left .brand {
+  margin-left: 0.5rem;
+  text-decoration: none;
+  color: #76323F;
+  font-size: 1.5rem;
+}
+
+.first-header-right {
+  display: flex;
+  align-items: center;
+}
+.first-header-right a {
+  transition: 0.3s all;
+  font-size: 1.3rem;
+  padding-right: 0.3rem;
+  color: #565656;
+}
+.first-header-right a:hover {
+  color: #76323F;
+}
+.first-header-right a:last-of-type {
+  padding-right: 0;
+}
+.first-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 0;
+}
+
+.last-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 0.5rem;
+}
+.last-header input {
+  width: 8rem;
+  border: 1px solid #76323F;
+  border-radius: 4px;
+}
+.last-header input:focus {
+  outline: none;
+  border: 2px solid #76323F;
+}
+.last-header a {
+  transition: 0.3s all;
+  margin-left: 0.5rem;
+}
+.last-header a:hover {
+  color: #76323F;
+}
+
 /*# sourceMappingURL=style.css.map */
