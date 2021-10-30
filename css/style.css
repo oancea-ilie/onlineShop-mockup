@@ -384,7 +384,7 @@ footer {
   color: #c09f80;
 }
 .first-header-left .brand {
-  margin-left: 0.5rem;
+  margin-left: 0.8rem;
   text-decoration: none;
   color: #76323F;
   font-size: 1.7rem;
@@ -441,9 +441,10 @@ footer {
   padding-top: 0.5rem;
 }
 .last-header input {
-  width: 8rem;
+  width: 9rem;
   border: 1px solid #76323F;
   border-radius: 4px;
+  padding: 0.1rem 0;
 }
 .last-header input:focus {
   outline: none;
@@ -525,6 +526,8 @@ footer {
 }
 .main-img-container {
   padding: 1rem;
+  max-width: 425px;
+  margin: 0 auto;
 }
 .main-img-container img {
   border-radius: 5px;
@@ -605,6 +608,35 @@ footer {
   padding: 1rem 0;
   color: #c09f80;
   font-size: 1.6rem;
+}
+
+.toggle-section {
+  position: fixed;
+  left: 0;
+  top: 87px;
+  width: 250px;
+  height: 100%;
+  background-color: #c09f80;
+  z-index: 99;
+}
+.toggle-section .toggle-section-flex {
+  display: flex;
+  align-items: center;
+}
+.toggle-section .toggle-section-flex img {
+  width: 16px;
+  height: 16px;
+  margin: 0.7rem 0.5rem;
+  cursor: pointer;
+}
+.toggle-section .toggle-section-flex p {
+  transition: 0.3s all;
+  cursor: pointer;
+  color: #76323F;
+  margin: 0.5rem 0;
+}
+.toggle-section .toggle-section-flex:hover p {
+  color: #d7cec7;
 }
 
 /*# sourceMappingURL=style.css.map */

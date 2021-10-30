@@ -1,0 +1,30 @@
+.toggle-section{
+    position: fixed;
+    left: 0;
+    top: 87px;
+    width: 250px;
+    height: 100%;
+    background-color: $orange;
+    z-index: 99;
+    .toggle-section-flex{
+        display: flex;
+        align-items: center;
+        img{
+            width: 16px;
+            height: 16px;
+            margin: 0.7rem 0.5rem;
+            cursor: pointer;
+        }
+        p{
+            transition: .3s all;
+            cursor: pointer;
+            color: $violet;
+            margin: 0.5rem 0;
+        }
+    }
+    .toggle-section-flex:hover{
+         p{
+             color: $grey;
+         }
+    }
+}
