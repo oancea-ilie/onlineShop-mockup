@@ -1,0 +1,39 @@
+.cart-sumar{
+    margin:0  0.25rem;
+    margin-top: 1rem;
+    background-color: $grey;
+    padding: 1rem;
+    text-align: center;
+    p{
+        padding: 0.3rem;
+        font-size: 1.2rem;
+        color: black;
+
+        span{
+            font-weight: bold;
+        }
+    }
+    p:last-of-type{
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+
+    a{
+        font-size: 1.5rem;
+        display: inline-block;
+        margin-top: 0.5rem;
+        text-decoration: none;
+        padding: 0.5rem 1rem;
+        background-color: $violet;
+        border-radius: 5px;
+        color: white;
+        transition: 0.3s all;
+        i{
+            margin-left: 0.3rem;
+            font-size: 1.4rem;
+        }
+    }
+    a:hover{
+        background-color: $orange;
+    }
+}

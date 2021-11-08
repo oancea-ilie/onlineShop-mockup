@@ -6,6 +6,9 @@
     height: 100%;
     background-color: $orange;
     z-index: 99;
+    transform: translateX(-100%);
+    transition: transform 1s;
+
     .toggle-section-flex{
         display: flex;
         align-items: center;

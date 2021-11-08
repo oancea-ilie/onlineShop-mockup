@@ -41,3 +41,10 @@
     padding-bottom: 1.5rem;
     text-align: center;
 }
+
+@keyframes toggleAnimation {
+    100%{
+        transform: translateX(0%);
+    }
+    
+}
