@@ -1,0 +1,41 @@
+.product-right{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    h3{
+        padding-top: 0rem;
+        padding-bottom: 1rem;
+        color: red;
+    }
+
+    a:first-of-type{
+        text-align: start;
+        i{
+            margin-right: 1rem;
+        }
+    }
+    a{
+        width: 230px;
+        text-align: center;
+        text-decoration: none;
+        padding: 0.5rem 1rem;
+        background-color: $violet;
+        border-radius: 5px;
+        margin-bottom: 0.5rem;
+        color: white;
+        font-size: 1.4rem;
+        transition: .3s all;
+    }
+    a:hover{
+        background-color: $orange;
+    }
+    a:last-of-type{
+        background-color: $orange;
+    }
+    a:last-of-type:hover{
+        background-color: $violet;
+    }
+}

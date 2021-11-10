@@ -3,4 +3,16 @@
     flex-direction: column;
     max-width: 300px;
     margin: 0 auto;
+    align-items: center;
+
+    .cos-gol-img{
+        display: none;
+        margin-top: 2rem;
+        width: 100px;
+    }
+    .cos-gol-text{
+        display: none;
+        margin-top: 1rem;
+        font-size: 1.3rem;
+    }
 }
